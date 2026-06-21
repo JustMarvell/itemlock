@@ -1,2 +1,8 @@
+scoreboard objectives add itemlock.walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add itemlock.sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add itemlock.swim minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add itemlock.walk_water minecraft.custom:minecraft.walk_on_water_one_cm
+scoreboard objectives add itemlock.walk_under_water minecraft.custom:minecraft.walk_under_water_one_cm
+scoreboard objectives add itemlock.climb minecraft.custom:minecraft.climb_one_cm
 scoreboard objectives add itemlock.aviate minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add itemlock.unlock_elytra dummy
+scoreboard objectives add itemlock.distance dummy

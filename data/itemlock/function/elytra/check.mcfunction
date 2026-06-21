@@ -1,1 +1,1 @@
-execute unless score @s itemlock.unlock_elytra matches 1 if entity @s[advancements={end/kill_dragon=true}] if score @s itemlock.aviate matches 100000.. run scoreboard players set @s itemlock.unlock_elytra 1
+execute unless score @s itemlock.unlock_elytra matches 1 if entity @s[advancements={end/kill_dragon=true}] if score @s itemlock.distance matches 100000.. run scoreboard players set @s itemlock.unlock_elytra 1
