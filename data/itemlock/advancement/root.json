@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier"
+        },
+        "title": "ItemLock",
+        "description": "Restricted gear and their unlock requirements",
+        "background": "block/light_gray_wool",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

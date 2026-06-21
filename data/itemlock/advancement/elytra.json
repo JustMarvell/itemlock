@@ -1,0 +1,19 @@
+{
+    "parent": "itemlock:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:elytra"
+        },
+        "title": "Elytra",
+        "description": "Locked until: Free the End + travel 1km",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
