@@ -1,28 +1,28 @@
 title @s actionbar {"text":"You cannot use this item, complete: Free the End + fly 1km first","color":"red"}
-execute unless data entity @s Inventory[{Slot:9b}] run return run item replace entity @s container.9 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:10b}] run return run item replace entity @s container.10 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:11b}] run return run item replace entity @s container.11 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:12b}] run return run item replace entity @s container.12 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:13b}] run return run item replace entity @s container.13 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:14b}] run return run item replace entity @s container.14 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:15b}] run return run item replace entity @s container.15 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:16b}] run return run item replace entity @s container.16 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:17b}] run return run item replace entity @s container.17 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:18b}] run return run item replace entity @s container.18 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:19b}] run return run item replace entity @s container.19 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:20b}] run return run item replace entity @s container.20 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:21b}] run return run item replace entity @s container.21 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:22b}] run return run item replace entity @s container.22 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:23b}] run return run item replace entity @s container.23 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:24b}] run return run item replace entity @s container.24 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:25b}] run return run item replace entity @s container.25 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:26b}] run return run item replace entity @s container.26 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:27b}] run return run item replace entity @s container.27 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:28b}] run return run item replace entity @s container.28 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:29b}] run return run item replace entity @s container.29 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:30b}] run return run item replace entity @s container.30 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:31b}] run return run item replace entity @s container.31 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:32b}] run return run item replace entity @s container.32 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:33b}] run return run item replace entity @s container.33 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:34b}] run return run item replace entity @s container.34 from entity @s armor.chest
-execute unless data entity @s Inventory[{Slot:35b}] run return run item replace entity @s container.35 from entity @s armor.chest
+execute unless data entity @s Inventory[{Slot:9b}] run return run function itemlock:elytra/move_to_slot {slot:9}
+execute unless data entity @s Inventory[{Slot:10b}] run return run function itemlock:elytra/move_to_slot {slot:10}
+execute unless data entity @s Inventory[{Slot:11b}] run return run function itemlock:elytra/move_to_slot {slot:11}
+execute unless data entity @s Inventory[{Slot:12b}] run return run function itemlock:elytra/move_to_slot {slot:12}
+execute unless data entity @s Inventory[{Slot:13b}] run return run function itemlock:elytra/move_to_slot {slot:13}
+execute unless data entity @s Inventory[{Slot:14b}] run return run function itemlock:elytra/move_to_slot {slot:14}
+execute unless data entity @s Inventory[{Slot:15b}] run return run function itemlock:elytra/move_to_slot {slot:15}
+execute unless data entity @s Inventory[{Slot:16b}] run return run function itemlock:elytra/move_to_slot {slot:16}
+execute unless data entity @s Inventory[{Slot:17b}] run return run function itemlock:elytra/move_to_slot {slot:17}
+execute unless data entity @s Inventory[{Slot:18b}] run return run function itemlock:elytra/move_to_slot {slot:18}
+execute unless data entity @s Inventory[{Slot:19b}] run return run function itemlock:elytra/move_to_slot {slot:19}
+execute unless data entity @s Inventory[{Slot:20b}] run return run function itemlock:elytra/move_to_slot {slot:20}
+execute unless data entity @s Inventory[{Slot:21b}] run return run function itemlock:elytra/move_to_slot {slot:21}
+execute unless data entity @s Inventory[{Slot:22b}] run return run function itemlock:elytra/move_to_slot {slot:22}
+execute unless data entity @s Inventory[{Slot:23b}] run return run function itemlock:elytra/move_to_slot {slot:23}
+execute unless data entity @s Inventory[{Slot:24b}] run return run function itemlock:elytra/move_to_slot {slot:24}
+execute unless data entity @s Inventory[{Slot:25b}] run return run function itemlock:elytra/move_to_slot {slot:25}
+execute unless data entity @s Inventory[{Slot:26b}] run return run function itemlock:elytra/move_to_slot {slot:26}
+execute unless data entity @s Inventory[{Slot:27b}] run return run function itemlock:elytra/move_to_slot {slot:27}
+execute unless data entity @s Inventory[{Slot:28b}] run return run function itemlock:elytra/move_to_slot {slot:28}
+execute unless data entity @s Inventory[{Slot:29b}] run return run function itemlock:elytra/move_to_slot {slot:29}
+execute unless data entity @s Inventory[{Slot:30b}] run return run function itemlock:elytra/move_to_slot {slot:30}
+execute unless data entity @s Inventory[{Slot:31b}] run return run function itemlock:elytra/move_to_slot {slot:31}
+execute unless data entity @s Inventory[{Slot:32b}] run return run function itemlock:elytra/move_to_slot {slot:32}
+execute unless data entity @s Inventory[{Slot:33b}] run return run function itemlock:elytra/move_to_slot {slot:33}
+execute unless data entity @s Inventory[{Slot:34b}] run return run function itemlock:elytra/move_to_slot {slot:34}
+execute unless data entity @s Inventory[{Slot:35b}] run return run function itemlock:elytra/move_to_slot {slot:35}
