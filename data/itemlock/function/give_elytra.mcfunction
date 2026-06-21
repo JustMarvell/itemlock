@@ -1,1 +1,1 @@
-give @s minecraft:elytra[custom_data={itemlock:{id:"elytra"}}]
+give @s minecraft:elytra
