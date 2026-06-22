@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carved_pumpkin"
+        },
+        "title": {
+            "text": "In The Dark"
+        },
+        "description": {
+            "text": "Lorem Ipsum"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "map/decorations/black_banner"
+    },
+    "criteria": {
+        "entered_area": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "position": {
+                                "x": {
+                                    "min": 100,
+                                    "max": 150
+                                },
+                                "y": {
+                                    "min": 60,
+                                    "max": 100
+                                },
+                                "z": {
+                                    "min": 200,
+                                    "max": 250
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
