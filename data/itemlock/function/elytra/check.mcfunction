@@ -1,2 +1,2 @@
-execute unless score @s itemlock.unlock_elytra matches 1 if entity @s[advancements={end/kill_dragon=true,end/dragon_breath=true,nether/all_biomes=true}] if score @s itemlock.playtime matches 1728000.. if score @s itemlock.mobkills matches 10000.. run scoreboard players set @s itemlock.unlock_elytra 1
+execute unless score @s itemlock.unlock_elytra matches 1 if entity @s[advancements={end/kill_dragon=true,end/dragon_breath=true,nether/explore_nether=true}] if score @s itemlock.playtime matches 1728000.. if score @s itemlock.mobkills matches 10000.. run scoreboard players set @s itemlock.unlock_elytra 1
 execute unless score @s itemlock.unlock_elytra matches 1 if entity @s[advancements={end/dragon_egg=true}] run scoreboard players set @s itemlock.unlock_elytra 1
