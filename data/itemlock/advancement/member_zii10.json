@@ -1,0 +1,19 @@
+{
+    "parent": "itemlock:whenyah",
+    "display": {
+        "icon": {
+            "id": "minecraft:iron_block"
+        },
+        "title": "Zii10",
+        "description": "'In The Dark'",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

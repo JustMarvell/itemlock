@@ -1,0 +1,19 @@
+{
+    "parent": "itemlock:whenyah",
+    "display": {
+        "icon": {
+            "id": "minecraft:beacon"
+        },
+        "title": "Dws_isr",
+        "description": "Ngana masih muda",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

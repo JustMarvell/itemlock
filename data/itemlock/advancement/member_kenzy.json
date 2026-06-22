@@ -1,0 +1,19 @@
+{
+    "parent": "itemlock:whenyah",
+    "display": {
+        "icon": {
+            "id": "minecraft:powder_snow_bucket"
+        },
+        "title": "NineVein",
+        "description": "ADOHHH COOOOO (-_-)",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

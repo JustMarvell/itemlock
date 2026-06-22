@@ -1,0 +1,19 @@
+{
+    "parent": "itemlock:whenyah",
+    "display": {
+        "icon": {
+            "id": "minecraft:deepslate"
+        },
+        "title": "HizzBermain",
+        "description": "Bermain",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
