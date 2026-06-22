@@ -5,4 +5,6 @@ scoreboard objectives add itemlock.walk_water minecraft.custom:minecraft.walk_on
 scoreboard objectives add itemlock.walk_under_water minecraft.custom:minecraft.walk_under_water_one_cm
 scoreboard objectives add itemlock.climb minecraft.custom:minecraft.climb_one_cm
 scoreboard objectives add itemlock.aviate minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add itemlock.playtime minecraft.custom:minecraft.play_time
+scoreboard objectives add itemlock.mobkills minecraft.custom:minecraft.mob_kills
 scoreboard objectives add itemlock.distance dummy

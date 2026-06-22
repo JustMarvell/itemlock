@@ -1,4 +1,4 @@
-title @s actionbar {"text":"You cannot use this item, complete: Free the End + travel 1km first","color":"red"}
+title @s actionbar {"text":"You cannot use this item, See advancements tab for more info","color":"red"}
 execute unless data entity @s Inventory[{Slot:9b}] run return run function itemlock:elytra/move_to_slot {slot:9}
 execute unless data entity @s Inventory[{Slot:10b}] run return run function itemlock:elytra/move_to_slot {slot:10}
 execute unless data entity @s Inventory[{Slot:11b}] run return run function itemlock:elytra/move_to_slot {slot:11}
